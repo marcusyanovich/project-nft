@@ -1,0 +1,262 @@
+@media all and (max-width: 1400px){
+	
+}
+
+@media all and (max-width: 1200px){
+	.first-gallery .slick-prev,
+	.first-gallery .slick-next{
+		bottom: -330px!important;
+	}
+}
+
+@media all and (min-width: 960px) and (max-width: 1200px){
+	.mission-block-text-item:after{
+		right: -20px;
+	}
+	.mission-block-right .mission-block-text-item:after{
+		left: -20px;
+	}
+}
+
+@media all and (max-width: 960px){
+	.form .form-text{
+		display: none;
+	}
+	.about-bg{
+		min-height: 900px;
+	}
+	.media-wrap:hover .gallery-more,
+	.media-wrap a:hover .gallery-more,
+	.slider-holder .item:hover:before{
+		opacity: 0;
+	}
+	.gallery .slider-holder .slick-slide > div{
+		padding: 5px;
+	}
+	.slides-numbers{
+		width: 100%;
+		margin-top: 40px;
+		display: flex;
+    	justify-content: center;
+	}
+	.slider-holder{
+		width: 100%;
+	}
+	.slider-container{
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+	.gallery .page-title{
+		margin-bottom: 56px;
+	}
+	.gallery-big-img{
+		background: #fff;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		max-height: 100%;
+		height: 100%;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	.about-more-gray-textblock{
+		background: #EAEAEA;
+		font-size: 18px;
+		padding: 0 30px 20px 0;
+	}
+	.about-text,
+	.about-text p{
+		margin-bottom: 0;
+	}
+}
+
+@media all and (min-width: 640px) and (max-width: 960px){
+	.mission-block-text-item:after{
+		right: -20px;
+		top: 10px;
+	}
+	.mission-block-right .mission-block-text-item:after{
+		left: -20px;
+	}
+	.mission-block-text-item{
+		font-size: 18px;
+	}
+	.mission:after{
+		top: 325px;
+	}
+	.faq-block .uk-accordion-title{
+		font-size: 24px;
+	}
+	.faq-block .uk-accordion-title::before{
+		margin-top: 0;
+	}
+	.first .title{
+		font-size: 64px;
+		line-height: 64px;
+		text-align: center;
+	}
+	.second-text{
+		font-size: 24px;
+	}
+	.about-right{
+		padding: 0px 70px 40px 70px;
+	}
+}
+
+@media all and (max-width: 640px){
+	.title{
+		font-size: 48px;
+	}
+	.mission-block-text-item:after{
+		display: none;
+	}
+	.mission-block-title{
+		font-size: 24px;
+	}
+	.mission-block-num{
+		font-size: 40px;
+	}
+	.mission-block-text-item{
+		font-size: 16px;
+	}
+	.about-bg{
+		min-height: 550px;
+	}
+	.about .uk-container,
+	.about-more .uk-container{
+		padding: 0 0 0 30px;
+	}
+	.first .title{
+		font-size: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.title{
+		font-size: 32px;
+	}
+	.second-text,
+	.faq-block .uk-accordion-title{
+		font-size: 24px;
+	}
+	.countdown .uk-countdown-number{
+		font-size: 40px;
+	}
+	.countdown-title{
+		font-size: 12px;
+	}
+	.about .title{
+		font-size: 48px;
+	}
+	.first-bg{
+		height: 400px;
+	}
+	.first{
+		padding: 40px 0 0 0;
+	}
+	.first .uk-container{
+		padding: 0;
+	}
+	.second .page-title{
+		margin-top: 0;
+	}
+	.first-gallery .slider-item{
+		padding-top: 60px;
+	}
+	.first-gallery .slider-item:before{
+		font-size: 18px;
+		position: relative;
+		top: -60px;
+	}
+	.about-text{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.about-right{
+		padding: 40px 30px;
+	}
+	.about-more-btn-wrap{
+		justify-content: center;
+	}
+	.off-menu ul li a{
+		font-size: 48px;
+		line-height: 48px;
+	}
+	.uk-offcanvas-bar{
+		padding: 80px 20px;
+	}
+	.about-more-left{
+		padding: 60px 0px;
+	}
+	.about-more-left .exb-block-gray{
+		padding: 0;
+	}
+	.about-more .title{
+		margin-top: 0;
+		padding: 0 20px;
+	}
+	.bio-hidden-first{
+		padding: 0 20px 60px 20px;
+	}
+	.about-more-right{
+		padding: 60px 20px 80px 20px;
+		color: #000;
+	}
+	.exh-block:before,
+	.exh-block:after{
+		background: #000;
+	}
+	.exh-block-right{
+		padding-left: 40px;
+	}
+	.bio-links{
+		padding: 0;
+		margin-top: 60px;
+		text-align: center;
+	}
+	.mission .page-title{
+		margin-top: 0;
+	}
+	.mission .title{
+		margin: 0 0 20px 0;
+	}
+	.mission:after{
+		top: 227px;
+	}
+	.faq{
+		padding: 60px 0 40px 0;
+	}
+	.faq .page-title,
+	.form .page-title{
+		margin-top: 0;
+	}
+	.faq .title{
+		margin: 0 0 50px 0;
+	}
+	.form-title,
+	.faq .title{
+		font-size: 48px;
+	}
+	.form{
+		padding: 80px 0 200px 0;
+	}
+	.media-wrap img{
+		height: 200px;
+	}
+	.media-wrap{
+		padding: 0 5px;
+	}
+	.gallery{
+		padding: 50px 0 60px 0;
+	}
+	.faq-block .uk-accordion-title::before{
+		margin-top: 5px;
+	}
+}
+
+@media all and (max-width: 450px){
+	.form-input{
+		width: 100%;
+	}
+}
